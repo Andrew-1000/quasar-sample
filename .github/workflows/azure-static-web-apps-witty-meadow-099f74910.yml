@@ -22,7 +22,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm i -g @quasar/cli
+      - run: npm install -g @quasar/cli
+      - run: npm install @quasar/cli
       - run: quasar build
       - name: Build And Deploy
         id: builddeploy
