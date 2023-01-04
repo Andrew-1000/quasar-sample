@@ -53,13 +53,13 @@ const linksList = [
     link: "https://github.com/quasarframework",
   },
   {
-    title: "Regulatory Bodies",
+    title: "Regulatory Board",
     caption: "chat.quasar.dev",
     icon: "chat",
     link: "https://chat.quasar.dev",
   },
   {
-    title: "Contacts",
+    title: "Company",
     caption: "forum.quasar.dev",
     icon: "record_voice_over",
     link: "https://forum.quasar.dev",
