@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: 16
       - run: npm i -g @quasar/cli
+      - run: quasar build
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
